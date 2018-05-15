@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="redis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis">
+				<Option output="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/redis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DREDIS_STATIC="/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/hiredis"/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/linenoise"/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/lua/src"/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/geohash-int"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis/fast">
+				<Option output="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/redis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhuyx/source/c_cpp/redis/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DREDIS_STATIC="/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/hiredis"/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/linenoise"/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/lua/src"/>
+					<Add directory="/Users/zhuyx/source/c_cpp/redis/deps/geohash-int"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhuyx/source/c_cpp/redis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/adlist.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/adlist.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/ae.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/ae.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/anet.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/anet.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/aof.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/asciilogo.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/bio.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/bio.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/bitops.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/blocked.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/cluster.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/cluster.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/config.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/config.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/crc16.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/crc64.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/crc64.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/db.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/debug.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/dict.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/dict.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/endianconv.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/endianconv.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/fmacros.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/geo.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/geo.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/help.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/hyperloglog.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/intset.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/intset.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/latency.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/latency.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/lzf.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/lzfP.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/lzf_c.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/lzf_d.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/memtest.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/multi.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/networking.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/notify.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/object.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/pqsort.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/pqsort.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/pubsub.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/quicklist.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/quicklist.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/rand.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/rand.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/rdb.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/rdb.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/redis-check-rdb.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/redisassert.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/release.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/release.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/replication.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/rio.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/rio.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/scripting.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sds.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sds.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sdsalloc.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sentinel.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/server.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/server.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/setproctitle.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sha1.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sha1.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/slowlog.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/slowlog.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/solarisfixes.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sort.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sparkline.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/sparkline.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/syncio.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/t_hash.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/t_list.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/t_set.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/t_string.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/t_zset.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/testhelp.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/util.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/util.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/version.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/ziplist.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/ziplist.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/zipmap.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/zipmap.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/zmalloc.c">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/src/zmalloc.h">
+			<Option target="redis"/>
+		</Unit>
+		<Unit filename="/Users/zhuyx/source/c_cpp/redis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
